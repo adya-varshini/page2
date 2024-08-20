@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forbidden Temptation</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", "Sans-Serif";
+      }
+
+      .hero {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(
+          rgba(12, 3, 51, 0.3),
+          rgba(12, 3, 51, 0.3)
+        );
+        position: relative;
+        padding: 0 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      nav {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px 8%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      nav img {
+        opacity: 0.7;
+        border-radius: 80px;
+        border: solid black;
+      }
+
+      nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 40px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 17px;
+      }
+      nav ul li a:hover {
+        border: whitesmoke solid;
+        opacity: 0.7;
+        border-radius: 25px;
+        padding: 10px;
+        color: black;
+        background-color: #dab6a9;
+        box-shadow: 0 0 25px #c19a8b;
+      }
+      .content {
+        text-align: center;
+      }
+      .content h {
+        font-size: 30px;
+        color:black;
+        font-weight: 100;
+        transition: 0.5s;
+        text-shadow:2px 2px #c19a8b;
+      }
+      .content p {
+        font-size: 20px;
+        color: whitesmoke;
+        text-align: justify;
+        transition: 0.5s;
+        opacity:0.9;
+      }
+
+      
+      .content a {
+        text-decoration: none;
+        display: inline-block;
+        color: #fff;
+        font-size: 20px;
+        border: 2px solid #fff;
+        padding: 14px 70px;
+        border-radius: 50px;
+        margin-top: 20px;
+        box-shadow: 0 0 25px #dab6a9;
+        background-color: #c19a8b;
+        opacity: 0.9;
+      }
+
+      .back-video {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      @media (min-aspect-ratio: 16/9) {
+        .back-video {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      @media (max-aspect-ratio: 16/9) {
+        .back-video {
+          width: auto;
+          height: 100%;
+        }
+      }
+
+      .logo {
+        box-shadow: 0 0 25px #dab6a9;
+      }
+      
+      .container{
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card{
+  width: 500px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff16;
+  padding: 18px;
+  border-radius: 10px;
+  border: 2px solid white transparent;
+  backdrop-filter: blur(3px);
+  box-shadow:0 0 25px #dab6a9;
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+
+    </header>
+    <div class="hero">
+      <video autoplay loop muted plays-inline class="back-video">
+        <source
+          src="videos/Untitled video - Made with Clipchamp (1).mp4"
+          type="video/mp4"
+        />
+      </video>
+      <nav>
+        <img src="Pictures/lo.png" class="logo" width="100" >
+        <ul>
+          <li><a href="C:\Users\Adya\index.html">HOME</a></li>
+          <li><a href="C:\Users\Adya\sp1.html">F&T CORNER</a></li>
+          <li><a href="C:\Users\Adya\c1.html">ABOUT</a></li>
+          <li><a href="C:\Users\Adya\c6.html">ECOCHOCO</a></li>
+          <li><a href="C:\Users\Adya\pract3.html">SHOP</a></li>
+          <li><a href="C:\Users\Adya\c4.html">CONTACT</a></li>
+
+
+        </ul>
+      </nav>
+      <div class="content">
+        <div class="container">
+            <div class="login-card">
+                <h>Home of chocolate</h>
+                <p>In 2013, the charitable Forbidden Temptation Chocolate Competence Foundation started a visionary project in Kilchberg, Switzerland.  Only in 2020,the F&T Home of Chocolate opens its doors. Located at our headquarters in Kilchberg, it houses interactive 
+                    exhibits, a research and pilot plant, the world’s largest chocolate shop, a café and chocolateria designed specially for chocolate courses. As the Home of Chocolate, it is no surprise that it also has one of the world’s largest chocolate fountains!
+
+                    Today Forbidden Temptation is a household name signalling bliss, quality and chocolate delight the world over.Let the Temptation take over the game.</p>
+            </div>      
+          
+      </div>
+    </div>
+  </body>
+</html>
